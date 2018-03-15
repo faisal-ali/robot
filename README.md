@@ -30,7 +30,7 @@ CODE EXECUTION:
 
 1) After downloading project go to "robot" folder.
 2) Make sure there is a "commands.txt" file in the project otherwise a file not found exception will be thrown. If not then create one and add any number of valid commands (from Commands section below), each on new line in upper case WIHTOUT "," at the end.
-3) From within the "robot" folder,write:
+3) From within the "robot" folder on terminal,write:
 ```bash  
 php index.php
 ```
@@ -41,7 +41,7 @@ php index.php
 
 TESTING:
 
-1) From robot folder, run:
+1) From robot folder on terminal, run:
 ```bash
 phpunit --bootstrap autoload.php RobotTest
 ```
