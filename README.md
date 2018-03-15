@@ -31,8 +31,9 @@ CODE EXECUTION:
 1) After downloading project go to "robot" folder.
 2) Make sure there is a "commands.txt" file in the project otherwise a file not found exception will be thrown. If not then create one and add any number of valid commands (from Commands section below), each on new line in upper case WIHTOUT "," at the end.
 3) From within the "robot" folder,write:
-  
-  php index.php
+```bash  
+php index.php
+```
 
 4) Above command will display output IF the commands in commands.txt file have:
   a) a valid PLACE command and
@@ -41,7 +42,8 @@ CODE EXECUTION:
 TESTING:
 
 1) From robot folder, run:
-
-  phpunit --bootstrap autoload.php RobotTest
+```bash
+phpunit --bootstrap autoload.php RobotTest
+```
 
 Where phpunit should be downloaded and placed in right place from installation steps above.
