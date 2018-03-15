@@ -1,7 +1,7 @@
 # robot
 
 
-ASSUMPTIONS/CONSTRAINTS OF PROGRAM:
+## ASSUMPTIONS/CONSTRAINTS OF PROGRAM:
 
 1) This is a command line progam, so a terminal will be required to execute the program.
 2) Commands will always be exected from commands.txt file.
@@ -9,16 +9,16 @@ ASSUMPTIONS/CONSTRAINTS OF PROGRAM:
 4) Nothing will be displayed in case of wrong command except for wrong PLACE command arguments.
 5) Code will exit excecution if commands file is not found.
 
-INSTALLATION INSTRUCTIONS:
+## INSTALLATION INSTRUCTIONS:
 
 1) The application is build on PHP version 5.5.38. Please install it if not already installed on system.
 2) Install phpunit from link below for testing purposes. 
 
 https://phpunit.de/getting-started/phpunit-4.html
 
-Note: Download this version of phpunit to avoid signature related errors https://phar.phpunit.de/phpunit-4.6.9.phar
+### Note: Download this version of phpunit to avoid signature related errors https://phar.phpunit.de/phpunit-4.6.9.phar
 
-LIST OF VALID COMMANDS:
+## LIST OF VALID COMMANDS:
 
 1) PLACE X-Coordinate, Y-Coordinate, Face. eg PLACE 1,1, SOUTH
 2) MOVE
@@ -26,7 +26,7 @@ LIST OF VALID COMMANDS:
 4) RIGHT
 5) REPORT
 
-CODE EXECUTION:
+## CODE EXECUTION:
 
 1) After downloading project go to "robot" folder.
 2) Make sure there is a "commands.txt" file in the project otherwise a file not found exception will be thrown. If not then create one and add any number of valid commands (from Commands section below), each on new line in upper case WIHTOUT "," at the end.
@@ -39,7 +39,7 @@ php index.php
   a) a valid PLACE command and
   b) a REPORT command after any number of commands after PLACE command.
 
-TESTING:
+## TESTING:
 
 1) From robot folder on terminal, run:
 ```bash
